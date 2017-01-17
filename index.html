@@ -54,6 +54,17 @@
 </style>
 
 <body>
+	<!-- Facebook share-button script -->
+	<div id="fb-root"></div>
+	<script>(function(d, s, id) {
+	  var js, fjs = d.getElementsByTagName(s)[0];
+	  if (d.getElementById(id)) return;
+	  js = d.createElement(s); js.id = id;
+	  js.src = "//connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v2.8&appId=5129522377";
+	  fjs.parentNode.insertBefore(js, fjs);
+	}(document, 'script', 'facebook-jssdk'));</script>
+
+
 	<div class="container-fluid darkgrey">
 		<div class="row">
 			<ul class="nav justify-content-end">
@@ -79,7 +90,7 @@
 	<div class="container-fluid grey">
 		<div class="row">
 			<div class="col-md-12 padding-0">
-				<h1 class="display-3 text-center bungee-mega">Vaali<br>data<br>hack</h1>
+				<h1 class="display-3 text-center bungee-mega">Vaali<br />data<br />hack</h1>
 				<div style="padding-bottom: 7vw;">
 					<h4 class="display-5 text-center">PE 17.2.2017 KLO. 9</h4>
 					<h4 class="display-5 text-center">RADIOKATU 5, HELSINKI</h4>
@@ -89,9 +100,17 @@
 	</div>
 
 	<div class="container">
+		<div class="row">
+			<div class="col-md-12 text-center">
+				<p class="text-center">Uskomme äänestyspäätösten tekemiseen kuntien tilaa ja kuntavaaliehdokkaiden kykyjä koskevan tiedon perusteella. Haluamme koota, rikastaa tunnisteilla ja linkittää dataa ehdokkaista ja kunnista. Tulkaa mukaan tukemaan avointa demokraattista dataa!</p>
+			</div>
+		</div>
+	</div>
+
+	<div class="container">
 		<div class="row justify-content-md-center">
 			<div class="col-md-10">
-				<h1 class="display-3 text-center bungee">Jaetun<br>tilannekuvan<br>luomiseksi</h1>
+				<h1 class="display-3 text-center bungee">Jaetun<br />tilannekuvan<br />luomiseksi</h1>
 			</div>
 		</div>
 		<div class="row justify-content-md-center">
@@ -101,8 +120,7 @@
 		</div>
 		<div class="row justify-content-md-center">
 			<div class="col-md-6">
-				<p class="text-center">Hackathonissa voi syöttää dataa Wikidataan; linkittää dataa; suoritaa ajoja dataa vasten; upottaa dataa; tehdä analyysejä ja visualisointeja</p>
-				<p class="text-center">Uskomme äänestyspäätösten tekemiseen kuntien tilaa ja kuntavaaliehdokkaiden kykyjä koskevan tiedon perusteella. Haluamme koota, rikastaa tunnisteilla ja linkittää dataa ehdokkaista ja kunnista. Tulkaa mukaan tukemaan avointa demokraattista dataa!</p>
+				<p class="text-center"><em>Hackathonissa voi syöttää dataa Wikidataan; linkittää dataa; suoritaa ajoja dataa vasten; upottaa dataa; tehdä analyysejä ja visualisointeja.</em></p>
 			</div>
 		</div>
 	</div>
@@ -110,26 +128,23 @@
 	<div class="container-fluid grey">
 		<div class="row">
 			<div class="col-md-12">
-				<h1 class="text-center">Kaksi träkkiä</h1>
+				<br />
+				<h1 class="text-center">Kaksi träkkiä:</h1>
+				<p>Hackathon koostuu kahdesta träkistä. Kuntailmiö-träkissä keskitymme poliittiseen analyysiin. Demokratia-infra taas keskittyy dataan ja sitä tukevan infran rakentamiseen. Molempiin träkkeihin tarvitaan sekä teknistä että sisällöllistä asiantuntemusta.</p>
 			</div>
 		</div>
 
 		<div class="row">
 			<div class="col-md-6">
 				<h2 class="bungee">Ilmiö</h2>
-				<p>Poliittinen analyysi. Vilka är viktiga frågor? Sote, sammanslagningar, rikspolitik, arbetslöshet, urbanisering, energi, flyktingpolitik, mer?</p>
+				<p>Poliittinen analyysi. Miltä kunnallisvaalien suuret vaalikysymykset näyttäytyvät datan läpi tarkasteltuna? Näkyykö sote-kysymys erillaisena erin-ikäisille ehdokkaille? Onko maakuntien ehdokkaat konservatiivisempia, vai vaan vanhempia kuin kaupunkien? Onko kuntien energia- ja liikenne-ratkaisuilla ja varallisuudella yhteyttä? Tule löytämään uusia vastauksia ennestään tunnettuihin kysymyksiin!</p>
 			</div>
 			<div class="col-md-6">
 				<h2 class="bungee">Infra</h2>
-				<p>Hackathonissa pyritään edistämään ja hyödyntämään pysyviä tunnisteita Suomen yhetiskunnallisille vaikuttajille. Wikidatan käyttäminen tuo pysyvyyttä ja antaa datan kaikille käytettäväksi. Se antaa myös työkaluja monipuolisille kyselyille ja visualisoineille. Tai sitten datan voi exportoida ja yhdistää muihin data-setteihin. Tule mukaan kehittämään tätä infraa ja keksimään ussia tapoja hyödyntää sitä.</p>
+				<p>Hackathonissa pyritään edistämään ja hyödyntämään pysyviä tunnisteita Suomen yhetiskunnallisille vaikuttajille. Wikidatan käyttäminen tuo pysyvyyttä ja antaa datan kaikille käytettäväksi. Se antaa myös työkaluja monipuolisille kyselyille ja visualisoineille. Tai sitten datan voi exportoida ja yhdistää muihin data-setteihin. Tule mukaan kehittämään tätä infraa ja keksimään uusia tapoja hyödyntää sitä.</p>
 			</div>
 		</div>
 
-		<div class="row">
-			<div class="col-md-12 text-center">
-				<p>Hackathon koostuu kahdesta träkistä. Kuntailmiö-träkissä keskitymme poliittiseen analyysiin. Demokratia-infra taas keskittyy dataan ja sitä tukevan infran rakentamiseen. Molempiin träkkeihin tarvitaan sekä teknistä että sisällöllistä asiantuntemusta. Toivomme tapahtuman edistävän teknologiaa hallitsevien ja politiikkaa tuntevien ihmisten yhteistyötä. Hackathon päättyy päivän aikana kehitettyjen projektiaihioiden esittelyyn.</p>
-			</div>
-		</div>
 	</div>
 
 
@@ -153,10 +168,10 @@
 			  </thead>
 			  <tbody>
 			  	<tr>
-			      <th scope="row">TBD</th>
+			      <th scope="row">27.1</th>
 			      <td>16.00</td>
 			      <td>Vuoden 2012 datat syötetty Wikidataan</td>
-			      <td></td>
+			      <td>Aika-taulu hieman optimistinen, mutta tähdätään siihen! :)</td>
 			    </tr>
 			    <tr>
 			      <th scope="row">16.2</th>
@@ -222,13 +237,13 @@
 			      <th scope="row">14.4</th>
 			      <td>16.00</td>
 			      <td>Dead line kilpailu-projekteille</td>
-			      <td><a href="#">Lähetä ne tämän kavakkeen kautta</a></td>
+			      <td><a href="#">Lomake julkaistaan tällä sivulla viimeistään 17.2.</a></td>
 			    </tr>
 			    <tr>
 			      <th scope="row">21.4</th>
 			      <td>TBD</td>
 			      <td>Finaali & retro</td>
-			      <td>Träkkien voittajat julistetaan ja voidaan vaihtaa kokemuksia</td>
+			      <td>Träkkien voittajat julistetaan ja voidaan vaihtaa kokemuksia.</td>
 			    </tr>
 			    <tr>
 			  </tbody>
@@ -237,7 +252,7 @@
 		</div>
 		<div class="row justify-content-md-center">
 			<div class="col-md-7">
-				<p>Toivottavasti hackathonissa syntyy projekteja, joita halutaan jatkokehittää ja jotka ehtivät vaikuttaa kunnallisvaalien käsittelyyn mediassa. Kokoamme kuntavaalien (9.4.) jälkeen, viimeistään perjantaina 14.4. projekteissa syntyneet ideat, tuotokset, visualisaatiot, datan ja koodin yhteen. Raati yleläisiä arvioi poliittiset analyysit ja kansainvälinen Wikimedia-raati arvioi tekniset ratkaisut. Voittajat julkistetaan perjantaina 21.4. Osallistujille järjestetään samana päivänä mahdollisuus jakaa kokemuksiaan.</p>
+				<p>Hackathonissa syntynee projekteja, joita halutaan jatkokehittää ja jotka ehtivät vaikuttaa kunnallisvaalien käsittelyyn mediassa. Kokoamme kuntavaalien (9.4.) jälkeen, perjantaina 14.4., projekteissa syntyneet ideat, tuotokset, visualisoinnit, datat ja koodit yhteen.</p><p>Raati yleläisiä arvioi poliittiset analyysit ja kansainvälinen Wikimedia-raati arvioi tekniset ratkaisut. Voittajat julkistetaan perjantaina 21.4. Osallistujille järjestetään samana päivänä mahdollisuus jakaa kokemuksiaan.</p>
 			</div>
 		</div>
 	</div>
@@ -250,7 +265,9 @@
 				<a name="ilmoittaudu"></a><h2>Ilmoittaudu</h2>
 				<iframe src="https://docs.google.com/forms/d/e/1FAIpQLScu6HFUJMyjEfPOznvIH2ipvPA5G92dJoR2vC1xkgAzvu5OuQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Läser in...</iframe>
 				<h2>Jaa ilo</h2>
-				<p>FB-event. HAshtagg. Some-share-knappar.</p>
+					<!-- Facebook share-button code -->
+				<p><div class="fb-share-button" data-href="https://vaalidatahack.github.io/" data-layout="button" data-size="large" data-mobile-iframe="true"><a class="fb-xfbml-parse-ignore" target="_blank" href="https://www.facebook.com/sharer/sharer.php?u=https%3A%2F%2Fvaalidatahack.github.io%2F&amp;src=sdkpreparse">Dela</a></div></p>
+				<p><a href="https://twitter.com/share" class="twitter-share-button" data-size="large" data-hashtags="vaalidatahack" data-show-count="false">Tweet</a><script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script></p>
 			</div>
 		</div>
 
