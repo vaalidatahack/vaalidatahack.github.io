@@ -30,45 +30,37 @@
 </head>
 
 <style media="screen" type="text/css">
-  .padding-0 {
-    padding: 0;
-  }
-  .bungee-mega {
-    font-family: 'Bungee Shade', cursive;
-    font-size: 13vh;
-    padding-top: 13vh;
-    padding-bottom: 5vh;
-  }
-  .bungee {
-    font-family: 'Bungee Shade', cursive;
-    font-size: 6vw;
-    padding-top: 5vw;
-    padding-bottom: 3vw;
-  }
   .grey {
     background-color: #d8d8d8;
   }
   .darkgrey {
     background-color: #9B9B9B;
   }
-
-  .navbar{
-    background-color: #9B9B9B;
+  .bungee {
+    font-family: 'Bungee Shade', cursive;
   }
+  .upper {
+    text-transform: uppercase;
+  }
+  .air {
+    padding-top: 15px;
+    padding-bottom: 35px;
+  }
+
 </style>
 
 <body>
 
-  <!-- navbar -->
-  <nav class="navbar navbar-toggleable-md navbar-light bg-faded">
-    <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+  <nav class="navbar navbar-toggleable-md navbar-inverse bg-inverse">
+    <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
+    <a class="navbar-brand" href="#">VAALIDATAHACK</a>
 
-    <div class="collapse navbar-collapse flex-row-reverse" id="navbarSupportedContent">
+    <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item active">
-          <a class="nav-link" href="#">HACK <span class="sr-only">(current)</span></a>
+          <a class="nav-link" href="#">HACK<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">DATA</a>
@@ -76,8 +68,8 @@
         <li class="nav-item">
           <a class="nav-link" href="#">PROJEKTIT</a>
         </li>
-        <li class="nav-item active">
-          <a class="nav-link" href="#">FI <span class="sr-only">(current)</span></a>
+        <li class="nav-item">
+          <a class="nav-link active" href="#">FI<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#">SV</a>
@@ -86,254 +78,168 @@
     </div>
   </nav>
 
-  <!-- jumbotron -->
-  <div class="container-fluid grey">
-    <div class="row">
-      <div class="col-md-12 padding-0">
-        <h1 class="display-3 text-center bungee-mega">Vaali<br />data<br />hack</h1>
-        <div style="padding-bottom: 7vw;">
-          <h4 class="display-5 text-center">PE 17.2.2017 KLO. 9</h4>
-          <h4 class="display-5 text-center">RADIOKATU 5, HELSINKI</h4>
+  <div class="jumbotron">
+    <div class="container">
+      <h1 class="display-1 text-center upper bungee">Vaali<br />data<br />hack</h1>
+      <h4 class="display-4 text-center upper">pe 17.2.2017 klo. 9</h4>
+      <h4 class="display-4 text-center upper">Radiokatu 5, Helsinki</h4>
+    </div>
+  </div>
+
+  <div class="container-fuild">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-12 text-center">
+          <p class="text-center">Uskomme äänestyspäätösten tekemiseen kuntien tilaa ja kuntavaaliehdokkaiden kykyjä koskevan tiedon perusteella. Haluamme koota, rikastaa tunnisteilla ja linkittää dataa ehdokkaista ja kunnista. Tulkaa mukaan tukemaan avointa demokraattista dataa!</p>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <h1 class="hidden-sm-up display-5 text-center bungee">yhteisen<br />alustan<br />käyttöön<br />ottamiseksi</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">yhteisen<br />alustan<br />käyttöön<br />ottamiseksi</h1>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-10">
+          <img class="mx-auto d-block" style="width: 40%" src="img/roolit-yhdessa.png" alt="Responsive image"/>
+        </div>
+      </div>
+      <div class="row justify-content-md-center">
+        <div class="col-md-6">
+          <p class="text-center"><em>Hackathonissa voi syöttää dataa Wikidataan; linkittää dataa; suoritaa ajoja dataa vasten; upottaa dataa; tehdä analyysejä ja visualisointeja.</em></p>
         </div>
       </div>
     </div>
   </div>
 
-  <!-- high level concept -->
-  <div class="container">
-    <div class="row">
-      <div class="col-md-12 text-center">
-        <p class="text-center">Uskomme äänestyspäätösten tekemiseen kuntien tilaa ja kuntavaaliehdokkaiden kykyjä koskevan tiedon perusteella. Haluamme koota, rikastaa tunnisteilla ja linkittää dataa ehdokkaista ja kunnista. Tulkaa mukaan tukemaan avointa demokraattista dataa!</p>
+  <div class="container-fuild grey">
+    <div class="container air">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="hidden-sm-up display-5 text-center bungee">kaksi träkkiä</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">kaksi träkkiä</h1>
+          <p>Hackathon koostuu kahdesta träkistä. Kuntailmiö-träkissä keskitymme poliittiseen analyysiin. Demokratia-infra taas keskittyy dataan ja sitä tukevan infran rakentamiseen. Molempiin träkkeihin tarvitaan sekä teknistä että sisällöllistä asiantuntemusta.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="bungee">1. Ilmiö</h2>
+          <p>Poliittinen analyysi. Miltä kunnallisvaalien suuret vaalikysymykset näyttäytyvät datan läpi tarkasteltuna? Näkyykö sote-kysymys erillaisena erin-ikäisille ehdokkaille? Onko maakuntien ehdokkaat konservatiivisempia, vai vaan vanhempia kuin kaupunkien? Onko kuntien energia- ja liikenne-ratkaisuilla ja varallisuudella yhteyttä? Tule löytämään uusia vastauksia ennestään tunnettuihin kysymyksiin!</p>
+        </div>
+        <div class="col-md-6">
+          <h2 class="bungee">2. Infra</h2>
+          <p>Hackathonissa pyritään edistämään ja hyödyntämään pysyviä tunnisteita Suomen yhetiskunnallisille vaikuttajille. Wikidatan käyttäminen tuo pysyvyyttä ja antaa datan kaikille käytettäväksi. Se antaa myös työkaluja monipuolisille kyselyille ja visualisoineille. Tai sitten datan voi exportoida ja yhdistää muihin data-setteihin. Tule mukaan kehittämään tätä infraa ja keksimään uusia tapoja hyödyntää sitä.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-md-10">
-        <h1 class="display-3 text-center bungee">Jaetun<br />tilannekuvan<br />luomiseksi</h1>
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-md-10">
-        <img class="mx-auto d-block" style="width: 40%" src="img/roolit-yhdessa.png" alt="Responsive image"/>
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-md-6">
-        <p class="text-center"><em>Hackathonissa voi syöttää dataa Wikidataan; linkittää dataa; suoritaa ajoja dataa vasten; upottaa dataa; tehdä analyysejä ja visualisointeja.</em></p>
+  <div class="container-fuild">
+    <div class="container air">
+      <div class="row">
+        <div class="col-md-12">
+          <br />
+          <h1 class="hidden-sm-up display-5 text-center bungee">Ohjelma</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">Ohjelma</h1>
+          <p>Hackathonissa syntynee projekteja, joita halutaan jatkokehittää ja jotka ehtivät vaikuttaa kunnallisvaalien käsittelyyn mediassa. Kokoamme kuntavaalien (9.4.) jälkeen, perjantaina 14.4., projekteissa syntyneet ideat, tuotokset, visualisoinnit, datat ja koodit yhteen.</p>
+          <p>Raati yleläisiä arvioi poliittiset analyysit ja kansainvälinen Wikimedia-raati arvioi tekniset ratkaisut. Voittajat julkistetaan perjantaina 21.4. Osallistujille järjestetään samana päivänä mahdollisuus jakaa kokemuksiaan.</p>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- tracks -->
-  <div class="container-fluid grey">
-    <div class="row">
-      <div class="col-md-12">
-        <br />
-        <h1 class="text-center">Kaksi träkkiä:</h1>
-        <p>Hackathon koostuu kahdesta träkistä. Kuntailmiö-träkissä keskitymme poliittiseen analyysiin. Demokratia-infra taas keskittyy dataan ja sitä tukevan infran rakentamiseen. Molempiin träkkeihin tarvitaan sekä teknistä että sisällöllistä asiantuntemusta.</p>
+  <div class="container-fuild grey">
+    <div class="container air">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="hidden-sm-up display-5 text-center bungee">ilmoittaudu</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">ilmoittaudu</h1>
+          <p>Hackathon koostuu kahdesta träkistä. Kuntailmiö-träkissä keskitymme poliittiseen analyysiin. Demokratia-infra taas keskittyy dataan ja sitä tukevan infran rakentamiseen. Molempiin träkkeihin tarvitaan sekä teknistä että sisällöllistä asiantuntemusta.</p>
+        </div>
       </div>
-    </div>
-
-    <div class="row">
-      <div class="col-md-6">
-        <h2 class="bungee">Ilmiö</h2>
-        <p>Poliittinen analyysi. Miltä kunnallisvaalien suuret vaalikysymykset näyttäytyvät datan läpi tarkasteltuna? Näkyykö sote-kysymys erillaisena erin-ikäisille ehdokkaille? Onko maakuntien ehdokkaat konservatiivisempia, vai vaan vanhempia kuin kaupunkien? Onko kuntien energia- ja liikenne-ratkaisuilla ja varallisuudella yhteyttä? Tule löytämään uusia vastauksia ennestään tunnettuihin kysymyksiin!</p>
-      </div>
-      <div class="col-md-6">
-        <h2 class="bungee">Infra</h2>
-        <p>Hackathonissa pyritään edistämään ja hyödyntämään pysyviä tunnisteita Suomen yhetiskunnallisille vaikuttajille. Wikidatan käyttäminen tuo pysyvyyttä ja antaa datan kaikille käytettäväksi. Se antaa myös työkaluja monipuolisille kyselyille ja visualisoineille. Tai sitten datan voi exportoida ja yhdistää muihin data-setteihin. Tule mukaan kehittämään tätä infraa ja keksimään uusia tapoja hyödyntää sitä.</p>
-      </div>
-    </div>
-
-  </div>
-
-  <!-- schedule -->
-  <div class="container">
-    <div class="row justify-content-md-center">
-      <div class="col-md-10">
-        <h1 class="display-3 text-center bungee">Ohjelma</h1>
-      </div>
-    </div>
-
-    <div class="row justify-content-md-center">
-      <div class="col-md-8">
-        <table class="table table-striped">
-          <thead>
-            <tr>
-              <th>Pvm</th>
-              <th>Aika</th>
-              <th>Tapahtuma</th>
-              <th>Lisäinfo</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <th scope="row">27.1</th>
-              <td>16.00</td>
-              <td>Vuoden 2012 datat syötetty Wikidataan</td>
-              <td>Aika-taulu hieman optimistinen, mutta tähdätään siihen! :)</td>
-            </tr>
-            <tr>
-              <th scope="row">16.2</th>
-              <td>16.00</td>
-              <td>Deadline ilmoittautumiseen</td>
-              <td><a href="#ilmoittaudu">Ilmoittaudu!</a></td>
-            </tr>
-          <tr>
-            <th rowspan="7"><strong>Hack Day 17.2.2017</strong></th>
-          </tr>
-            <tr>
-              <td>9.00</td>
-              <td>Tervetuloa!</td>
-              <td>Kahvia tarjolla</td>
-            </tr>
-            <tr>
-              <td>9.30</td>
-              <td>Hack away!</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>11.30-12.30</td>
-              <td>Lounastarjoilua</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>Iltapäivä</td>
-              <td>Kahvitarjoilua</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>12.30</td>
-              <td>Hack some more</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>16</td>
-              <td>Projektiesittelyt</td>
-              <td></td>
-            </tr>
-            <tr>
-              <td>17 --&gt; </td>
-              <td>After-hack beer hotelli Pasilassa</td>
-              <td><address>Maistraatinportti 3, 00240 Helsinki</address></td>
-            </tr>
-            <tr>
-              <th scope="row">Post Hack<br />TBD</th>
-              <td></td>
-              <td>Vuoden 2017 vaalidatat Wikidatassa</td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">9.4</th>
-              <td></td>
-              <td>Vaalipäivä</td>
-              <td></td>
-            </tr>
-            <tr>
-              <th scope="row">14.4</th>
-              <td>16.00</td>
-              <td>Dead line kilpailu-projekteille</td>
-              <td><a href="#">Lomake julkaistaan tällä sivulla viimeistään 17.2.</a></td>
-            </tr>
-            <tr>
-              <th scope="row">21.4</th>
-              <td>TBD</td>
-              <td>Finaali & retro</td>
-              <td>Träkkien voittajat julistetaan ja voidaan vaihtaa kokemuksia.</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-    </div>
-    <div class="row justify-content-md-center">
-      <div class="col-md-7">
-        <p>Hackathonissa syntynee projekteja, joita halutaan jatkokehittää ja jotka ehtivät vaikuttaa kunnallisvaalien käsittelyyn mediassa. Kokoamme kuntavaalien (9.4.) jälkeen, perjantaina 14.4., projekteissa syntyneet ideat, tuotokset, visualisoinnit, datat ja koodit yhteen.</p><p>Raati yleläisiä arvioi poliittiset analyysit ja kansainvälinen Wikimedia-raati arvioi tekniset ratkaisut. Voittajat julkistetaan perjantaina 21.4. Osallistujille järjestetään samana päivänä mahdollisuus jakaa kokemuksiaan.</p>
+      <div class="row">
+        <div class="col-md-6">
+          <h2 class="bungee">Mahdollisuudet</h2>
+            <ul>
+              <li>Jos kunnallisvaaliehdokkaista muodostettaisiin uusi eduskunta, millainen pohja sille tulisi?</li>
+              <li>Jos katsoo nykyisten kansanedustajien ääniä kunnallisvaaleissa niin millainen puolue-jakauma olisi?</li>
+              <li>Kuinka kunnallisvaaliehdokkaat jakautuvat mielipiteissään sote-uudistukseen suhteessa heidän edustamnsa kunnan varallisuuteen?</li>
+              <li>Kuinka kaikki ehdokkaat jakautuu iän puolesta suhteessa heidän edustaman kunnan asukaskokoon nähden?</li>
+              <li>Kuinka suuri osuus SOK-osakkaista osallistuu kunnalisvaaleihin?</li>
+            </ul>
+        </div>
+        <div class="col-md-6">
+          <h2 class="bungee">Roolit</h2>
+          <p>Toisaalta kuntiin liittyvien poliittisten analyysien tekemisestä.</p>
+          <ul>
+            <li>Donec id elit non mi porta gravida at eget metus.</li>
+            <li>Fusce dapibus, mmmtellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li>
+            <li>Etiam porta sem malesuada magna mollis euismod.</li>
+            <li>Donec sed odio dui. </li>
+          </ul>
+        </div>
       </div>
     </div>
   </div>
 
-  <!-- registration -->
-  <div class="row">
-    <div class="col-md-6">
-      <a name="ilmoittaudu"></a><h2>Ilmoittaudu</h2>
-      <iframe src="https://docs.google.com/forms/d/e/1FAIpQLScu6HFUJMyjEfPOznvIH2ipvPA5G92dJoR2vC1xkgAzvu5OuQ/viewform?embedded=true" width="760" height="500" frameborder="0" marginheight="0" marginwidth="0">Läser in...</iframe>
+  <div class="container-fuild">
+    <div class="container air">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="hidden-sm-up display-5 text-center bungee">Tukea tekemiselle</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">Tukea tekemiselle</h1>
+          <p>Hackathonin aikana löytyy tukea monelta eri sunnalta. Tapahtuma tuo yhteen monen eri alan asiantuntijoita. Ja järjestäjät auttavaat sparramaan ideoita ja toteutuksia.</p>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-4">
+          <h2 class="bungee">Wikidatan esittely</h2>
+            <p>Haluamme koota, rikastaa tunnisteilla ja linkittää dataa ehdokkaista ja kunnista. Yhdistämme esimerkiksi Oikeusministeriön ehdokasdatan ja Ylen Vaalikoneen datan. Aineisto kootaan mahdollisimman pitkälle Wikidataan, josta se on kaikkien kiinnostuneiden saatavilla ja jatkojalostettavissa. Dataan voi kysellä ja visualisoida Wikidatan työkaluilla tai sitä voi tallentaa itselleen jatkokäyttöä varten. <a href="https://www.youtube.com/watch?v=1jHoUkj_mKw">Katso esimerkkivideo Youtubesta</a> (ei koodaajat aloittakaa 10min.)</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="bungee">Perusdata</h2>
+          <p>WIKIDATA: Kunnalisvaaliehdokkaat vuodelta 2012 (hackathonin jälken julkaistaan v.2017 ehdokkaat): ehdokkaan nimi, (sukupuoli), ikä, puolue tmv, kunta, vuoden 2012 vaalin äänimäärä. Puolueiden ja kuntien perustiedot. </p>
+          <p>MUUT: Ylen vaalikone 2012. Kuntatutka-datat (<a href="http://yle.fi/uutiset/3-9192528">katso täältä</a>). Muut data-setit tervetulleita. Julkiastaan vielä ennen hackathonia laajemmat tiedot datasta.</p>
+        </div>
+        <div class="col-md-4">
+          <h2 class="bungee">Tukihenkilöitä</h2>
+          <p>A) Wikidata, Susanna Ånäs Wikimedia Suomi. B) Koodaus, Petri Kola, webbikehittäjä Yle. C) konseptointi, Mikael Hindsberg, konseptisuunnittelija Svenska Yle. Muut osallistujat. D) Kunnat. TBD.</p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- roles -->
-  <div class="row">
-    <div class="col-md-6">
-      <h2>Mahdollisuudet</h2>
-      <ul>
-        <li>Jos kunnallisvaaliehdokkaista muodostettaisiin uusi eduskunta, millainen pohja sille tulisi?</li>
-        <li>Jos katsoo nykyisten kansanedustajien ääniä kunnallisvaaleissa niin millainen puolue-jakauma olisi?</li>
-        <li>Kuinka kunnallisvaaliehdokkaat jakautuvat mielipiteissään sote-uudistukseen suhteessa heidän edustamnsa kunnan varallisuuteen?</li>
-        <li>Kuinka kaikki ehdokkaat jakautuu iän puolesta suhteessa heidän edustaman kunnan asukaskokoon nähden?</li>
-        <li>Kuinka suuri osuus SOK-osakkaista osallistuu kunnalisvaaleihin?</li>
-      </ul>
-    </div>
-    <div class="col-md-6">
-      <h2>Roolit</h2>
-      <ul>Toisaalta kuntiin liittyvien poliittisten analyysien tekemisestä.</ul>
-        <li>Donec id elit non mi porta gravida at eget metus.</li>
-        <li>Fusce dapibus, mmmtellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</li>
-        <li>Etiam porta sem malesuada magna mollis euismod.</li>
-        <li>Donec sed odio dui. </li>
+  <div class="container-fuild grey">
+    <div class="container air">
+      <div class="row">
+        <div class="col-md-12">
+          <h1 class="hidden-sm-up display-5 text-center bungee">Järjestäjät</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">Järjestäjät</h1>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <p><strong>Petri Kola, Yle</strong> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a href="https://twitter.com/pe3">@pe3</a></p>
+        </div>
+        <div class="col-md-6">
+          <p><strong>Mikael Hindsberg, Yle</strong>Mikael "Micke" Hindsberg on työskennellyt Ylen verkkosivujen kanssa yli 15 vuotta. Hänellä on laajat kokemukset eri verkko-tuotteiden konseptoinnista, metadatan hallinnoinnista sekä myös jonkun verran datajournalismin saralta. <a href="https://twitter.com/mickhinds">@mickhinds</a></p>
+        </div>
+      </div>
     </div>
   </div>
 
-  <!-- support -->
-  <div class="row">
-    <div class="col-md-12">
-      <h1 class="text-center">Tukea tekemiselle</h1>
-      <p>Hackathonin aikana löytyy tukea monelta eri sunnalta. Tapahtuma tuo yhteen monen eri alan asiantuntijoita. Ja järjestäjät auttavaat sparramaan ideoita ja toteutuksia.</p>
-    </div>
-    <div class="col-md-4">
-      <h2>Wikidatan esittely</h2>
-      <p>Haluamme koota, rikastaa tunnisteilla ja linkittää dataa ehdokkaista ja kunnista. Yhdistämme esimerkiksi Oikeusministeriön ehdokasdatan ja Ylen Vaalikoneen datan. Aineisto kootaan mahdollisimman pitkälle Wikidataan, josta se on kaikkien kiinnostuneiden saatavilla ja jatkojalostettavissa. Dataan voi kysellä ja visualisoida Wikidatan työkaluilla tai sitä voi tallentaa itselleen jatkokäyttöä varten. <a href="https://www.youtube.com/watch?v=1jHoUkj_mKw">Katso esimerkkivideo Youtubesta</a> (ei koodaajat aloittakaa 10min.)</p>
-    </div>
-    <div class="col-md-4">
-      <h2>Perusdata</h2>
-      <p>WIKIDATA: Kunnalisvaaliehdokkaat vuodelta 2012 (hackathonin jälken julkaistaan v.2017 ehdokkaat): ehdokkaan nimi, (sukupuoli), ikä, puolue tmv, kunta, vuoden 2012 vaalin äänimäärä. Puolueiden ja kuntien perustiedot. </p>
-      <p>MUUT: Ylen vaalikone 2012. Kuntatutka-datat (<a href="http://yle.fi/uutiset/3-9192528">katso täältä</a>). Muut data-setit tervetulleita. Julkiastaan vielä ennen hackathonia laajemmat tiedot datasta.</p>
-    </div>
-    <div class="col-md-4">
-      <h2>Tukihenkilöitä</h2>
-      <p>A) Wikidata, Susanna Ånäs Wikimedia Suomi. B) Koodaus, Petri Kola, webbikehittäjä Yle. C) konseptointi, Mikael Hindsberg, konseptisuunnittelija Svenska Yle. Muut osallistujat. D) Kunnat. TBD.</p>
+  <div class="container-fuild darkgrey">
+    <div class="container air">
+      <div class="row">
+        <div class="col-md-6">
+          <img src="img/ylelogo.png" alt="Yle logo">
+        </div>
+        <div class="col-md-6">
+          <img src="img/wikimedialogo.png" alt="Wikimedia Suomi logo">
+        </div>
+      </div>
     </div>
   </div>
-
-  <!-- organizers -->
-  <div class="row">
-    <div class="col-md-6">
-      <h1>Järjestäjät</h1>
-      <p><strong>Petri Kola, Yle</strong> Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus. Etiam porta sem malesuada magna mollis euismod. Donec sed odio dui. <a href="https://twitter.com/pe3">@pe3</a></p>
-    </div>
-  </div>
-  <div class="row">
-    <div class="col-md-6">
-      <p><strong>Mikael Hindsberg, Yle</strong>Mikael "Micke" Hindsberg on työskennellyt Ylen verkkosivujen kanssa yli 15 vuotta. Hänellä on laajat kokemukset eri verkko-tuotteiden konseptoinnista, metadatan hallinnoinnista sekä myös jonkun verran datajournalismin saralta. <a href="https://twitter.com/mickhinds">@mickhinds</a></p>
-    </div>
-  </div>
-
-  <!-- footer -->
-  <div class="row">
-    <div class="col-md-12">
-      <img src="img/ylelogo.png" alt="Yle logo">
-    </div>
-    <div class="col-md-4">
-      <img src="img/wikimedialogo.png" alt="Wikimedia Suomi logo">
-    </div>
-    <div class="col-md-4">
-
-    </div>
-    <div class="col-md-4">
-
-    </div>
-  </div>
-
 
   <!-- jQuery first, then Tether, then Bootstrap JS. -->
   <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
