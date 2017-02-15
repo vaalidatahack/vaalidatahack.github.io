@@ -1,30 +1,30 @@
 <!DOCTYPE html>
-<html lang="sv">
-<title>DATA | Valdatahack 17.2.2017</title>
+<html lang="fi">
+
 <head>
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <!-- Some meta tags -->
-  <meta property="og:title" content="Data - Valdatahack 2017" />
-  <meta property="og:image" content="https://vaalidatahack.github.io/img/vaalidatahack_fb_sv.png" />
-  <meta name="dc:title" content="Data - Valdatahack 2017" />
-  <meta name="twitter:image" content=".https://vaalidatahack.github.io/img/vaalidatahack_fb_sv.png" />
-  <meta name="twitter:image:alt" content="Valdatahack 2017" />
+  <meta property="og:title" content="DATA | VAALIDATAHACK 2017" />
+  <meta property="og:image" content="img/vaalidatahack_fb.png" />
+  <meta name="dc:title" content="DATA | VAALIDATAHACK 2017" />
+  <meta name="twitter:image" content="img/vaalidatahack_fb.png" />
+  <meta name="twitter:image:alt" content="Vaalidata hack 2017" />
   <meta property="og:type" content="article" />
-  <meta property="og:url" content="https://vaalidatahack.github.io/sv" />
-  <meta property="og:description" name="description" content="Valdatahack söker nya perspektiv på kommunalvalet och använder tjänsten Wikidata som en samarbetsplattform för öppen demokratiskt data." />
+  <meta property="og:url" content="https://vaalidatahack.github.io/" />
+  <meta property="og:description" name="description" content="VAALIDATAHACK:issa etsitään uusia näkökulmia kuntavaaleihin ja opetellaan käyttämään Wikidata-palvelua yhteistyöalustana." />
   <meta property="fb:app_id" content="530983406971937" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:site" content="@Svenska_Yle" />
-  <meta name="keywords" content="data, metadata, election, val, kommunalval, wikidata" />
-  <meta name="dc:language" content="sv-FI" />
+  <meta name="keywords" content="data, metadata, election, vaalit, kunnallisvaalit, wikidata" />
+  <meta name="dc:language" content="fi-FI" />
   <meta name="dc:type" content="text" />
   <meta name="dc:format" content="html/text" />
   <meta name="dc:publisher" content="Svenska Yle" />
   <meta name="dcterms:rightsHolder" content="Yle" href="http://dbpedia.org/resource/YLE" />
 
-  <title>Valdatahack 17.2.2017</title>
+  <title>DATA | VAALIDATAHACK 17.2.2017</title>
   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Bungee+Shade" rel="stylesheet">
 </head>
@@ -55,24 +55,24 @@
     <button class="navbar-toggler navbar-toggler-right collapsed" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
-    <a class="navbar-brand" href="index.html">VALDATAHACK</a>
+    <a class="navbar-brand" href="index.html">VAALIDATAHACK</a>
 
     <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false">
       <ul class="navbar-nav mr-auto">
         <li class="nav-item">
           <a class="nav-link" href="index.html">HACK</a>
         </li>
-        <li class="nav-item">
-          <a class="nav-link active" href="data.html">DATA<span class="sr-only">(current)</span></a>
+        <li class="nav-item active">
+          <a class="nav-link" href="data.html">DATA<span class="sr-only">(current)</span></a>
         </li>
         <li class="nav-item">
-          <a class="nav-link disabled" href="#">PROJEKT</a>
+          <a class="nav-link disabled" href="#">PROJEKTIT</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="../index.html">FI</a>
+          <a class="nav-link" href="index.html">FI</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="index.html">SV</a>
+          <a class="nav-link" href="sv/data.html">SV</a>
         </li>
       </ul>
     </div>
@@ -80,9 +80,9 @@
 
   <div class="jumbotron">
     <div class="container">
-      <h1 class="display-1 text-center upper bungee">Val<br />data<br />hack</h1>
-      <h4 class="display-4 text-center upper">fre 17.2.2017 kl. 9</h4>
-      <h4 class="display-4 text-center upper"><address>Radiogatan 5, Helsinki</address></h4>
+      <h1 class="display-1 text-center upper bungee">Vaali<br />data<br />hack</h1>
+      <h4 class="display-4 text-center upper">pe 17.2.2017 klo. 9</h4>
+      <h4 class="display-4 text-center upper"><address>Radiokatu 5, Helsinki</address></h4>
     </div>
   </div>
 
@@ -97,24 +97,24 @@
       </div>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
-          <img class="mx-auto d-block" style="width: 55%" src="../img/komm_sv.png" alt="Responsive image"/>
-          <div width="300px"><p class="text-center"><em>Kommuner med språk svenska, exkluderande sådana som hör till landskapet Åland.</em> [<a href="http://tinyurl.com/hurvdej">QUERY</a>]<br /><br /></p></div>
+          <iframe style="width:50vw; height:30vh;" frameborder="0" src="https://query.wikidata.org/embed.html#%23defaultView%3AGraph%0ASELECT%20%3Fperson%20%20%3FpersonLabel%20%3Fimage%20%3FcityBorn%20%3FcityBornLabel%20%3Fcoordinates%20WHERE%20%7B%0A%20%20%3Fperson%20wdt%3AP31%20wd%3AQ5%20.%20%0A%20%20%3Fperson%20wdt%3AP39%20wd%3AQ17592486%20.%0A%20%20%3Fperson%20wdt%3AP18%20%3Fimage%20.%0A%20%20%3Fperson%20wdt%3AP19%20%3FcityBorn%20.%0A%20%20%3FcityBorn%20wdt%3AP625%20%3Fcoordinates%20.%0A%09filter%20not%20exists%20%7B%0A%20%20%3FcityBorn%20wdt%3AP131%20wd%3AQ5689%20.%0A%09%09%09%7D%0A%0A%20%20SERVICE%20wikibase%3Alabel%20%7B%20bd%3AserviceParam%20wikibase%3Alanguage%20%22sv%22.%20%7D%0A%7D%0A">
+          <div width="300px"><p class="text-center"><em>Suomen kansanedustajat kunnan mukaan.</em> [<a href="http://tinyurl.com/z9fm8rk">QUERY</a>]<br /><br /></p></div>
         </div>
       </div>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
           <h3><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Finnish_Elections">Wikidata:WikiProject Finnish Elections</a></h3>
-          <p>I dokumentet beskrivs projektet samt datamodellen.</p>
+          <p>Projektikuvailu ja tietomalli.</p>
           <ul>
-            <li>Val</li>
-            <li>Kommun</li>
-            <li>Valkrets</li>
-            <li>Kommunfullmäktige</li>
-            <li>Partier och lagmansföreningar</li>
-            <li>Kandidater</li>
+            <li>Vaali</li>
+            <li>Kunta</li>
+            <li>Vaalipiiri</li>
+            <li>Kunnanvaltuusto</li>
+            <li>Puolueet ja valitsijayhdistykset</li>
+            <li>Ehdokkaat</li>
           </ul>
         </div>
-        <p>Processen är i skrivande stund (10.2.2017) pågående, men t.ex. kommunerna är klara. <a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Finnish_Elections">Följ status på projektsidan för lägeskoll.</a></p><br /><br />
+        <p><a href="https://www.wikidata.org/wiki/Wikidata:WikiProject_Finnish_Elections">Processi edelleen hieman kesken, mutta mm. kunnat jo valmiit..</a></p><br /><br />
       </div>
       <div class="row justify-content-md-center">
         <div class="col-md-10">
@@ -123,7 +123,7 @@
       </div>
       <div class="row justify-content-md-center">
         <div class="col-md-6">
-          <p class="text-center"><em>Det går också bra att kombinera huvuddata med externa datasets, och/eller ladda upp dem på Wikidata som hackathon-projekt. Här nedan några användbara exempel.</em></p>
+          <p class="text-center"><em>Wikidatan tiedot voi myös yhdistää ulkoisiin data-setteihin. Tai voi hackathon-projektina rikastaa Wikidatan tietoja lisäämällä uutta dataa. Alla muutama esimerkki ulkoisesta datasta.</em></p>
         </div>
       </div>
     </div>
@@ -133,43 +133,43 @@
     <div class="container air">
       <div class="row justify-content-md-center">
         <div class="col-md-8">
-          <h1 class="hidden-sm-up display-5 text-center bungee">extern<br />kommun<br />data</h1>
-          <h1 class="hidden-xs-down display-4 text-center bungee">extern<br />kommun<br />data</h1> 
+          <h1 class="hidden-sm-up display-5 text-center bungee">ulkoinen<br />kunta<br />data</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">ulkoinen<br />kunta<br />data</h1> 
             <h3>Kuntatutka / Kommunradarn</h3>
-            <p>Dataset: <a href="https://docs.google.com/spreadsheets/d/1rfhRfNtSz28O9e1joY7DOFqqppEbAUh0F5ZOKBZWJV8/edit?usp=sharing">Data om kommunerna och deras ekonomi. Exkluderar de åländska kommunerna.<a/><br />
-            Format: Google Sheets<br />
-            Utgivare: Yle<br />
-            Licens: ?<br />
-            Webburl: <a href="http://yle.fi/uutiset/3-9192528">http://yle.fi/uutiset/3-9192528</a> (fi) och <a href="https://svenska.yle.fi/dataviz/2016/kommunradarn/">https://svenska.yle.fi/dataviz/2016/kommunradarn/</a> (sv)
-            Anmärkningar: de åländska kommunerna saknas</p>
+            <p>Dataset: <a href="https://docs.google.com/spreadsheets/d/1rfhRfNtSz28O9e1joY7DOFqqppEbAUh0F5ZOKBZWJV8/edit?usp=sharing">Dataa kunnista ja niiden  taloustilanteesta. Poislukien Ahvenanmaan kunnat.<a/><br />
+            Formaatti: Google Sheets<br />
+            Julkaisia: Yle<br />
+            Lisnssi: ?<br />
+            Url: <a href="http://yle.fi/uutiset/3-9192528">http://yle.fi/uutiset/3-9192528</a> (fi) ja <a href="https://svenska.yle.fi/dataviz/2016/kommunradarn/">https://svenska.yle.fi/dataviz/2016/kommunradarn/</a> (sv)
+            Huomautukset: Ahvenanmaan kunnat puuttuu</p>
             <br /><br />
 
 
-            <h3>Yles valkompass för kommunalvalet 2012</h3>
+            <h3>Ylen vaalikone vuoden 2012 kunnalisvaaleista</h3>
             <p>Dataset: <a href="http://vaalikone.yle.fi/candidate_images/candidate_answers.csv">http://vaalikone.yle.fi/candidate_images/candidate_answers.csv</a>) <br />
-            Innehåll: alla svar från valkompassen 2012, 21 054 respondenter<br />
-            Format: csv<br />
-            Utgivare: Yle<br />
-            Licens: CC BY-SA 1.0<br />
-            Webburl: <a href="http://yle.fi/uutiset/3-6331306">http://yle.fi/uutiset/3-6331306</a> </p>
+            Sisältö: kaikki vuoden 2012 vaalikoneen vastauksista, 21 054 ehdokasta mukana<br />
+            Formaatti: csv<br />
+            Julkaisia: Yle<br />
+            Lisenssi: CC BY-SA 1.0<br />
+            Url: <a href="http://yle.fi/uutiset/3-6331306">http://yle.fi/uutiset/3-6331306</a> </p>
             <br /><br />
 
 
-            <h3>Förändring mellan valen 2012 > 2017</h3>
+            <h3>Muutos vuoden 2012 > 2017 kunnallisvaalien välillä</h3>
             <p>Dataset: <a href="http://www.vaalit.fi/material/attachments/vaalit/vaalit/kuntavaalit2017/hi7XLhdDb/KV2012-KV2017_muutokset_kunnanvaltuustojen_koossa_suom_aakkosjarjestys.pdf">http://www.vaalit.fi/material/attachments/vaalit/vaalit/kuntavaalit2017/hi7XLhdDb/KV2012-KV2017_muutokset_kunnanvaltuustojen_koossa_suom_aakkosjarjestys.pdf</a><br />
-            Innehåll: Alla kommuners befolkningsantal och ledamotplatser i kommunalvalen 2012 respektive 2017, samt siffror för förändringen<br />
-            Format: pdf<br />
-            Utgivare: Justitieministeriet / vaalit.fi <br />
-            Licens: ?</p>
+            Innehåll: Kaikkien kuntien väestönluku sekä valtuustopaikkojen määrä kunnnallisvaaleissa vuosina 2012 ja 2017, sekä muutosluvut.<br />
+            Formaatti: pdf<br />
+            Julkaisia: Oikeusministeriö / vaalit.fi <br />
+            Lisenssi: ?</p>
             <br /><br />
 
 
-            <h3>Kommunernas befolkning enligt röstningsområden</h3>
+            <h3>Kuntien asukasluku äänestyspiireittäin</h3>
             <p>Dataset: <a href="http://vrk.fi/vaalitilastoja">http://vrk.fi/vaalitilastoja</a><br />
-            Innehåll: Alla Finlands kommuners röstnngsområdens befolkningsantal och känsfördelning. Nyaste datasettet från oktober 2016. <br />
-            Format: offline html i tabeller<br />
-            Utgivare: Befolkningsregistercentralen<br />
-            Licens: ingen</p>
+            Sisältö: Kaikkien Suomen kuntien äänestysalueet ja niiden väkiluku sekä väestön sukupuolijakauma. Uusin data Lokakuusta 2016.<br />
+            Formaatti: offline html taulukoissa<br />
+            Julkaisia: Väestöntietokeskus<br />
+            Lisenssi: ?</p>
             <br /><br />
         </div>
       </div>
@@ -196,24 +196,24 @@
     <div class="container air">
       <div class="row">
         <div class="col-md-12">
-          <h1 class="hidden-sm-up display-5 text-center bungee">Stöd under hacket</h1>
-          <h1 class="hidden-xs-down display-4 text-center bungee">Stöd under hacket</h1>
-          <p>Det finns stöd och bollplank att tillgå under loppet av hackathonet. Evenemanget för samman experter inom flera olika områden. Och arrangörerna hjälper också till med att sparra med idéer och lösningar.</p>
+          <h1 class="hidden-sm-up display-5 text-center bungee">Tukea tekemiselle</h1>
+          <h1 class="hidden-xs-down display-4 text-center bungee">Tukea tekemiselle</h1>
+          <p>Tapahtuma tuo yhteen eri alojen asiantuntijoita ja järjestäjät sparraavat ideoita ja auttavat teknisissä toteutuksissa.</p>
         </div>
       </div>
       <div class="row">
         <div class="col-md-4">
-          <h2 class="bungee">Wikidatas verktyg</h2>
-            <p>Wikidata erbjuder också verktyg för att göra körningar och visualiserinagr. Man kan också ladda ner data och kombinera det med externa dataset. <a href="https://www.youtube.com/watch?v=1jHoUkj_mKw">Se en demo-video från Youtube</a> (icke-kodare starta vid ca. 10min.) Se till exempel <a href="http://tinyurl.com/hurvdej">en query med alla finlands svenskspråkiga kommuner exkluderande Åland</a>.</p>
+          <h2 class="bungee">Wikidata työkaluna</h2>
+            <p>Wikidata tarjoaa työkaluja ajoille ja visualisoinneille. Tulokset voui myös ladata tai embedata. <a href="https://www.youtube.com/watch?v=1jHoUkj_mKw">Katso demo-video Youtubesta</a> (ei-koodarit aloittakaa 10min. kodalla). Tai katsokaa yllä oleva esimerkki <a href="http://tinyurl.com/z9fm8rk">suomalaiista kansanedustajista syntymä-paikkakunnan mukaan</a>.</p>
         </div>
         <div class="col-md-4">
-          <h2 class="bungee">Stödpersoner</h2>
-          <p>A) Wikidata, Susanna Ånäs Wikimedia Finland. B) Kodning, Petri Kola, webbutvecklare Yle. C) koncept, Mikael Hindsberg, konceptutvecklare Svenska Yle. D) Kommuner. TBD. E) Annotering / metadata. Pia Virtanen, informatiker, Yle.</p>
+          <h2 class="bungee">Tukihenkilöitä</h2>
+          <p>A) Wikidata, Susanna Ånäs Wikimedia Suomi. B) Koodaus, Petri Kola, webbikehittäjä Yle. C) konseptointi, Mikael Hindsberg, konseptisuunnittelija Svenska Yle. Muut osallistujat. D) Kunnat. TBD.</p>
         </div>
         <div class="col-md-4">
-          <h2 class="bungee">Arrangörer</h2>
-          <p>Petri Kola, programmerare och datajournalist. <a href="https://twitter.com/pe3">@pe3</a></p>
-          <p>Mikael Hindsberg, konceptutvecklare. <a href="https://twitter.com/mickhinds">@mickhinds</a></p>
+          <h2 class="bungee">Järjestäjät</h2>
+          <p>Petri Kola, ohjelmoja ja datajournalisti. <a href="https://twitter.com/pe3">@pe3</a></p>
+          <p>Mikael Hindsberg, konseptisuunnittelija. <a href="https://twitter.com/mickhinds">@mickhinds</a></p>
         </div>
       </div>
     </div>
